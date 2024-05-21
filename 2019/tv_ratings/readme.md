@@ -1,21 +1,16 @@
-# TV's golden age is real
+# <font color=lightblue>TV Dramas</font>
 
-This week's [**DATA**](IMDb_Economist_tv_ratings.csv) is curated courtesy of [Sara Stoudt](https://twitter.com/sastoudt) and comes from the recently created **The Economist** [Data GitHub](https://github.com/TheEconomist)!
+This data is from IMDB, and contains all television dramas from 1990 to 2018. Data credit goes to [Sara Stoudt](https://twitter.com/sastoudt).
 
-Their November 24th article on [TV ratings](https://www.economist.com/graphic-detail/2018/11/24/tvs-golden-age-is-real) covers 'all TV dramas ... via IMDb from 1990 to 2018'.
+---
+|**Variable**  |**Description**                |
+|:---------|:--------------------------|
+|titleId   |Unique identifier for series|
+|seasonNumber|Season number for series|
+|title|Title of series|
+|date|Series premiere date|
+|av_rating|Average IMDB user rating (1-10 scale)|
+|share|Share of total views among all dramas in the same year|
+|genres|List of applicable genres to the series|
 
-# Data Dictionary
-
-Data dictionary courtesy of `skimr` and `kable`, with credit to [Phillip Knor](https://twitter.com/philip_khor).
-
-|type      |variable     |missing |complete |n    |min        |max        |
-|:---------|:------------|:-------|:--------|:----|:----------|:----------|
-|character |genres       |0       |2266     |2266 |5          |25         |
-|character |title        |0       |2266     |2266 |1          |51         |
-|character |titleId      |0       |2266     |2266 |9          |9          |
-|Date      |date         |0       |2266     |2266 |1990-01-03 |2018-10-10 |
-|integer   |seasonNumber |0       |2266     |2266 |NA         |NA         |
-|numeric   |av_rating    |0       |2266     |2266 |NA         |NA         |
-|numeric   |share        |0       |2266     |2266 |NA         |NA         |
-
-
+Report: [link](https://app.powerbi.com/reportEmbed?reportId=dd7bb5a0-ee63-44e9-aaac-ec98b6b74437&autoAuth=true&ctid=cfa792cf-7768-4341-8857-81754c2afa1f)
